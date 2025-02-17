@@ -7,6 +7,7 @@ This is a full-stack CRUD (Create, Read, Update, Delete) application built using
 main-folder/
 │-- backend/      # Node.js & Express server
 │-- frontend/     # React application
+│-- .gitignore     # Ignore files 
 │-- README.md     # Project documentation
 ```
 
@@ -26,8 +27,8 @@ Ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/crud-app.git
-cd crud-app
+git clone https://github.com/Akashkilledar/CRUD-in-React-using-Node-and-MongoDB.git
+cd CRUD-in-React-using-Node-and-MongoDB
 ```
 
 ### 2. Setup Backend
@@ -36,18 +37,11 @@ cd backend
 npm install  # Install dependencies
 ```
 
-#### Configure Environment Variables
-Create a `.env` file in the `backend` folder and add:
-```
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
-```
-
 #### Start Backend Server
 ```bash
 npm start
 ```
-The backend will run on `http://localhost:5000`.
+The backend will run on `http://localhost:8080`.
 
 ### 3. Setup Frontend
 ```bash
@@ -58,7 +52,7 @@ npm install  # Install dependencies
 #### Configure API Endpoint
 Edit `frontend/src/config.js` and set the API base URL:
 ```js
-export const API_BASE_URL = "http://localhost:5000";
+export const API_BASE_URL = "http://localhost:8080";
 ```
 
 #### Start Frontend Server
