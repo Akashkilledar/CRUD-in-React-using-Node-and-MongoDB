@@ -7,7 +7,7 @@ This is a full-stack CRUD (Create, Read, Update, Delete) application built using
 main-folder/
 │-- backend/      # Node.js & Express server
 │-- frontend/     # React application
-│-- .gitignore     # Ignore files 
+│-- .gitignore    # Ignore files 
 │-- README.md     # Project documentation
 ```
 
